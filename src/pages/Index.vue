@@ -1,20 +1,18 @@
 <template>
   <Layout>
+    <div class="content">
+      <h1>Jordan AIMÉ</h1>
+      <img class="logo" src="https://cdn-icons-png.flaticon.com/512/5038/5038273.png" alt="stealerz">
+      <p>
+        Web developper, Broadcast & Esports Events Manager
+      </p>
 
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
-
-    <h1>Hello, world!</h1>
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
-    </p>
-
-    <p class="home-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-      123
-    </p>
+      <p class="home-links">
+        <a href="mailto:jordanaime@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/2040/2040539.png"
+            alt="mail"></a>
+      </p>
+      <p>Test</p>
+    </div>
 
   </Layout>
 </template>
@@ -22,13 +20,25 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'Jamstack Jordan'
   }
 }
 </script>
 
 <style>
+.content {
+  text-align: center;
+}
+
 .home-links a {
   margin-right: 1rem;
+}
+
+.home-links a img {
+  width: 24px;
+}
+
+.logo {
+  width: 256px;
 }
 </style>
