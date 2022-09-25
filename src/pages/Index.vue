@@ -11,7 +11,6 @@
         <a href="mailto:jordanaime@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/2040/2040539.png"
             alt="mail"></a>
       </p>
-      <p>Test</p>
     </div>
 
   </Layout>
